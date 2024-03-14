@@ -1,0 +1,110 @@
+.gradient-background {
+    background: linear-gradient(300deg, #747264, #c3a3a7, #739aa2);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  h1{
+    color: #747264;
+    font-family: "Sacramento", cursive;
+    font-style: normal;
+    font-size: 6rem;
+    margin: 50px auto 0 auto;
+    
+  }
+
+  h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    color: #747264;
+  }
+
+  h3{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .dev{
+    text-decoration: underline;
+  }
+
+  .top-container{
+    background-image: url("../assets/images/background-first.jpg");
+    width: 100%;
+    height: 100vh;
+  }
+
+  .my-pic{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+  }
+
+  .facts{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+  }
+
+  .gaming{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .random-fact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div{
+    display: block;
+  }
+
+  body{
+    text-align: center;
+  }
+
+  .lists{
+    list-style: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  p{
+    color: black;
+  }
+
+  .web-developer{
+    color: black;
+  }
+
+  .btn{
+    background: #747264;
+    border: none;
+    background-image: linear-gradient(to bottom, #747264, #637c7c);
+  }
+
+  .bottom-container{
+    background-color: #747264;
+  }
+
+  .justine-warren{
+    color: white;
+  }

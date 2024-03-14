@@ -1,0 +1,46 @@
+.gradient-background {
+    background: linear-gradient(300deg, #74aba6, #ebb6be, #ba7d75);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+  #header{
+    background-image: url(./assets/images/background-first.jpg);
+  }
+
+  h1{
+    font-family: "Ojuju", sans-serif;
+    color: #272829;
+  }
+
+  .button-gradient{
+    background: #272829;
+    border: none;
+    background-image: linear-gradient(to bottom, #272829, #637c7c);
+  }
+
+  .footer-gradient{
+    background-image: url("./assets/images/background-first.jpg");
+  }
+
+  .justine-warren{
+    text-align: center;
+    color: black;
+  }
+
+  .justine{
+    text-decoration: underline;
+  }
